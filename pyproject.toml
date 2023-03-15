@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nonebot_plugin_bracket"
+version = "0.1.0"
+description = "Nonebot2 插件，用于补全左括号"
+authors = ["meetwq <meetwq@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = { version = "^2.0.0-rc.1", extras = ["fastapi"] }
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
