@@ -7,6 +7,11 @@ __plugin_meta__ = PluginMetadata(
     name="括号补全",
     description="补全消息中的括号，治愈强迫症",
     usage="发送带括号的消息即可",
+    extra={
+        "unique_name": "bracket",
+        "author": "meetwq <meetwq@gmail.com>",
+        "version": "0.1.2",
+    },
 )
 
 bracket_pairs = {
