@@ -1,14 +1,16 @@
 [tool.poetry]
 name = "nonebot_plugin_bracket"
-version = "0.1.2"
+version = "0.2.0"
 description = "Nonebot2 插件，用于补全左括号"
 authors = ["meetwq <meetwq@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/noneplugin/nonebot-plugin-bracket"
+repository = "https://github.com/noneplugin/nonebot-plugin-bracket"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-nonebot2 = { version = "^2.0.0-rc.1", extras = ["fastapi"] }
+nonebot2 = { version = "^2.0.0", extras = ["fastapi"] }
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.1.0"
