@@ -10,11 +10,6 @@ __plugin_meta__ = PluginMetadata(
     type="application",
     homepage="https://github.com/noneplugin/nonebot-plugin-bracket",
     supported_adapters=None,
-    extra={
-        "unique_name": "bracket",
-        "author": "meetwq <meetwq@gmail.com>",
-        "version": "0.2.0",
-    },
 )
 
 bracket_pairs = {
